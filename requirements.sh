@@ -1,0 +1,27 @@
+pip install av
+pip install einops
+pip install flashy>=0.0.1
+pip install hydra-core>=1.1
+pip install hydra_colorlog
+pip install julius
+pip install num2words
+pip install numpy
+pip install sentencepiece
+pip install spacy==3.5.2
+pip install torch>=2.0.0
+pip install torchaudio>=2.0.0
+pip install huggingface_hub
+pip install tqdm
+pip install transformers
+pip install xformers
+pip install demucs
+pip install librosa
+pip install gradio
+pip install pydantic==1.10.11
+pip install pytz==2023.3
+pip install fastapi==0.100.0
+pip install typing_extensions==4.7.1
+pip install typing-inspect==0.9.0
+pip install 'torch>=2.0'
+pip install -U git+https://git@github.com/facebookresearch/audiocraft#egg=audiocraft
+pip install pynvml
