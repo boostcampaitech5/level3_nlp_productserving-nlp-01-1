@@ -36,7 +36,7 @@ fine tuning을 통해 특정 악기 및 장르를 학습하여, 기존의 장르
 
 # 3. 모델 구성
 
-![Untitled](MusicGen%20%E1%84%8B%E1%85%B3%E1%86%B7%E1%84%8B%E1%85%A1%E1%86%A8%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%20%E1%84%86%E1%85%A9%E1%84%83%E1%85%A6%E1%86%AF%204443385b60ad4935a7df08e3d7dff22c/Untitled.png)
+![Image](https://file.notion.so/f/s/47e921c2-2e87-435a-97d8-236447063558/Untitled.png?id=17d5ef93-197a-4639-a226-ecdb215af9db&table=block&spaceId=0825c815-092a-430c-9d39-95d69099fbe9&expirationTimestamp=1690567200000&signature=XnqUPWWAWwgt0WjoiIz8Q__0u0uJazblMoy4kjvn1bo&downloadName=Untitled.png)
 
 # 4.모델 선택
 
