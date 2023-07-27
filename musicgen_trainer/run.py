@@ -16,7 +16,7 @@ parser.add_argument('--test', type=bool, required=False, default=False)
 parser.add_argument('--state_dir', type=str, required=False,
                     default='models/lm_final.pt')
 parser.add_argument('--wav_path', type=str, required=False, default='test.wav')
-parser.add_argument('--caption', type=str, required=True)
+parser.add_argument('--caption', type=str, required=False, default=None)
 
 args = parser.parse_args()
 
