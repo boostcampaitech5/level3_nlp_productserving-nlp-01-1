@@ -1,0 +1,5 @@
+*.wav
+.ipynb_checkpoints
+__pycache__
+wandb
+*.pt
