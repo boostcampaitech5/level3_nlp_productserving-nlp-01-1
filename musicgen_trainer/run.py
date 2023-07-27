@@ -15,7 +15,7 @@ parser.add_argument('--save_step', type=int, required=False, default=None)
 parser.add_argument('--test', type=bool, required=False, default=False)
 parser.add_argument('--state_dir', type=str, required=False,
                     default='models/lm_final.pt')
-parser.add_argument('--save_dir', type=str, required=False, default='test.wav')
+parser.add_argument('--wav_path', type=str, required=False, default='test.wav')
 parser.add_argument('--caption', type=str, required=True)
 
 args = parser.parse_args()
@@ -35,6 +35,6 @@ if args.test:
     test_generate(
         model_id=args.model_id,
         state_dir=args.state_dir,
-        save_dir=args.save_dir,
+        wav_path=args.wav_path,
         caption=args.caption,
     )
