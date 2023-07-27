@@ -5,10 +5,6 @@ from pydantic import BaseModel
 from audiocraft.models import musicgen
 from fastapi.responses import JSONResponse #, FileResponse
 import torch
-#import datetime
-#import pytz
-#from numba import cuda
-#import gc
 import time
 
 from monitoring import print_information, print_caption, print_request_processing_time
