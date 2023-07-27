@@ -4,7 +4,7 @@ from audiocraft.data.audio import normalize_audio
 
 import torch
 
-def test_generate(model_id, state_dir, save_dir, caption):
+def test_generate(model_id, state_dir, wav_path, caption):
 
     model = MusicGen.get_pretrained(model_id)
 
@@ -54,5 +54,5 @@ def test_generate(model_id, state_dir, save_dir, caption):
     print("Contents:", gen_audio)
 
     gen_audio = gen_audio.cpu()
-    torchaudio.save(save_dir, gen_audio[0], self.sample_rate)
-    torchaudio.save('noramlized_' + save_dir, normalize_audio(gen_audio[0]), self.sample_rate)
+    torchaudio.save(wav_path, gen_audio[0], self.sample_rate)
+    torchaudio.save('noramlized_' + wav_path, normalize_audio(gen_audio[0]), self.sample_rate)
