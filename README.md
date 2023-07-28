@@ -27,6 +27,7 @@ fine tuning을 통해 특정 악기 및 장르를 학습하여, 기존의 장르
 - Reference :  [국악 악보 및 음원 데이터](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=71470)
 
 ## 카테고리 정의 및 데이터 구축
+musicgen이 어떤 카테고리 정보로 학습되었는지, 어떠한 기준으로 caption을 제작하였는지 자세히 언급되어 있지 않아  논문에 언급된 musicgen 학습 및 평가에 사용한 음원 사이트들에서 카테고리 정보를 수집하였고, 테스트 및 회의를 거쳐 카테고리를 정의 후, 데이터 구축을 진행.   
 
 - 데이터셋
     - musicgen 학습 및 평가에 사용한 데이터를 제공하는 사이트들의 카테고리 정보를 수집하여 정리.
