@@ -36,7 +36,8 @@ fine tuning을 통해 특정 악기 및 장르를 학습하여, 기존의 장르
 
 # 3. 모델 구성
 
-![Image](https://file.notion.so/f/s/47e921c2-2e87-435a-97d8-236447063558/Untitled.png?id=17d5ef93-197a-4639-a226-ecdb215af9db&table=block&spaceId=0825c815-092a-430c-9d39-95d69099fbe9&expirationTimestamp=1690567200000&signature=XnqUPWWAWwgt0WjoiIz8Q__0u0uJazblMoy4kjvn1bo&downloadName=Untitled.png)
+![image](https://github.com/boostcampaitech5/level3_nlp_productserving-nlp-01-1/assets/93263215/6b55c1a4-5a1a-4f31-858c-2cb1eb51c205)
+
 
 # 4.모델 선택
 
