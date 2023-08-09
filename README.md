@@ -37,7 +37,7 @@ musicgen이 어떤 카테고리 정보로 학습되었는지, 어떠한 기준�
 
 # 3. 모델 구성
 
-![image](https://github.com/boostcampaitech5/level3_nlp_productserving-nlp-01-1/assets/93263215/6b55c1a4-5a1a-4f31-858c-2cb1eb51c205)
+<img width="582" alt="musicgen_architecture" src="https://github.com/boostcampaitech5/level3_nlp_productserving-nlp-01-1/assets/93263215/3181c779-7328-4e2c-bd82-a2d57a60fd1f">
 
 
 # 4.모델 선택
@@ -63,3 +63,9 @@ musicgen이 어떤 카테고리 정보로 학습되었는지, 어떠한 기준�
 - 생선된 음원의 음질과 음원이 입력된 문장, 또는 캡션에 어울리게 나오는지에 따라 평가를 진행.
 - Riffusion은 다른 두 모델에 비해 음원이 입력에 알맞게 생성하지 않는 모습을 보여 탈락.
 - MusicLM은 모델 및 코드가 공개적으로 배포되지 않았고, MusicGen Trainer가 존재하기 때문에 MusicGen을 최종적으로 선택
+
+## 이슈
+- https://github.com/boostcampaitech5/level3_nlp_finalproject-nlp-01/issues/6
+- https://github.com/boostcampaitech5/level3_nlp_finalproject-nlp-01/issues/5
+- https://github.com/boostcampaitech5/level3_nlp_finalproject-nlp-01/issues/15
+- https://github.com/boostcampaitech5/level3_nlp_finalproject-nlp-01/issues/21
